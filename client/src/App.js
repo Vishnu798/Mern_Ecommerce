@@ -5,7 +5,7 @@ function App() {
   const buttonClick = async()=>{
     try {
       const data = await axios.get('http://localhost:5000/get_data')
-      
+      setText(data.data);
       console.log("data is  : ",data)
     } catch (error) {
       console.log("error is : ",error)
@@ -14,7 +14,7 @@ function App() {
   return (
     <div >
       <button onClick={buttonClick}>getText</button>
-      <h2>text</h2>
+      <h2>{text}</h2>
     </div>
   );
 }
