@@ -3,16 +3,13 @@ const cors = require('cors')
 const adminRoute = require('./Routes/admin_route')
 
 const app = express()
+app.use(cors())
+app.use(express.json())
 
-express.json()
-cors()
 
-// app.get('/', function (req, res) {
-//   res.send('Hello World test')
-// })
 app.use(adminRoute)
 
 app.listen(5000,()=>{
-    console.log("server started at 5000")
+    console.log("server started at 5000 ")
 })
 
