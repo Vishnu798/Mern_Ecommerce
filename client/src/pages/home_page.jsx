@@ -1,4 +1,4 @@
-import {useState,useEffect} from 'react'
+import {useEffect} from 'react'
 import AdminService from '../service/admin_services'
 
 const HomePage = () => {

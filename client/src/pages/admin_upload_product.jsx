@@ -17,10 +17,10 @@ const AdminUploadProduct = () => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }))
   };
 
-  const handleChangeFile = (e) => {
-    console.log("e value is  :", e)
-    //    setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
-  };
+  // const handleChangeFile = (e) => {
+  //   console.log("e value is  :", e)
+  //   //    setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
+  // };
   const handleSubmit = async (event) => {
     event.preventDefault()
     console.log(formData)
