@@ -4,7 +4,7 @@ const AdminService = {
      async uploadProduct(formData){
         console.log("form data is :",formData);
         try {
-            const response = await axios.post('https://ecommerce-web-iqde.onrender.com/upload_product',formData)
+            const response = await axios.post('http://localhost:5000/upload_product',formData)
             return response;
         } catch (error) {
            console.log("error on uploading product",error); 
@@ -14,7 +14,7 @@ const AdminService = {
     async getProducts(){
         try {
             console.log("requesting to backend")
-            const response = await axios.get('https://ecommerce-web-iqde.onrender.com/get_product')
+            const response = await axios.get('http://localhost:5000/get_product')
             return response;
         } catch (error) {
             console.log("error in getProducts function",error)
