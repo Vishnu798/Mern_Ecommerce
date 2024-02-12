@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "ecommerce-website-cdc77",
+    "private_key_id": "506ef720efde2ffe4c629629c3b94d7593cc7c04",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDBFLjYD8ROO+nd\nzXEYb1nkdTNtfjghO6NU3jsEJB7yX5J4cRL1AP+JHXHmUI4WhHzlTtmZKITjsJUD\nDpwQESWGTqdnz39EXjm6BV7pOCrWN2aBxwLRlOFHEOSeWaHo1xrdfQyCumzhzhRx\nDhex1Dyz5Oq6jd+sP5xHZKNluxHrdoIc0A79t+eGxJPKHTH8/mOiWkLkdgCSahSn\nU2R5B1Lq13hKKhUlCfV3fHEUjmmQm6w4EUUieuC+Xrk9RT9BI1WmlwFZQyX17kzn\nwqu14eQrehgPbibWJhcK4LnH3+p3UR87ccREBxHKRR4ziJsvI9TrCR46/7fJwfSB\nB/MTmjU1AgMBAAECggEAOma5Lmk+eGd46qUMc1ai+w5UOuc1tR+j3LTHZw5B6g/s\nbs/M6xydLm0gmYh+IeN7H6UE/mWaJICx4dXWcKmvDvvVePnzRcu2bETZm3NoyZjC\nQbjfamM87ND4RclYxuPhdWMwmI4pBvfdiQC5PAm1PricI0dsg15ON+4B2nCGEBEm\n18BsaX+oMuaPXzwWWbEUvon+Rc3SgnQe58BCPRbcl47Jar8GKM5VIlfizGF+1TmC\nMj9FQuMY4NdN+hZnowzB2owDDz8S5T8Y2xaRwKlphisUSB3ikAPqWnQ3t0VU4Nql\nPWKz3dus7Gcacy5HVlSw/r1+NL7jG537F3tTLKueNQKBgQDnrQ7MjH4gf/QfEFVE\n1K1BFFUo/j1pnf1yQf1glQGnK+pMgMkWUA88aDC4+2cUxmvNvjDnMmpF6Kn1zOTI\nNCD3wNttxRjWcGGMO7r7HwBfQw2z4ZBj+rpOL4cbsQETRYtSwBu+EJYL0VFmRzsa\nPeDFn8gFFnvJBliKEP205QMttwKBgQDVWlBSaxPdcEnVeCUEmYs7Eizd4FS2g4T8\nb5nKHt8MYMbAWIPkHU5Url+uy+jSwmh+Jsryz8mUSb0Yct1Ftly3ZwT5Nf4XG6B7\n/cw/U/uXOc0tmdCN0cSUGOEZY4DV5o2U5fUI3fEffXcY8cgrew6cT/zO4eOrD2Kq\nVOOHwTi0cwKBgQCp778TO1qo7DJdNtXVD0ummQt+bj8N4d2umckJt0LnJMdQJodZ\n3o/Od36FsaMDEiixWfj1HX3mmatRqWGHmPU1xjkuY4y8fuKOwqF84libh8vdTm9j\nZt6RyzsHjOaFBFYV9ORknjXxpTBYHZe0v/7H91P4p21VH1qCq8PtlK6oMQKBgCbN\nQRRsMvWv6U2whxL6Fc9Nc+l6Vg3Hh5Udetu+l5Q5uYvbzUjcZ5WRDQfOP+6surJO\nvdRBJAkbDA/5O/LkwqH8U3Q7dJWhSaOjOdU+oeAT/BPSCJLyVo0UpUOnzBOa1Z8B\n33mYW7T9bX6U4nG99J9LENBTVsOSjcAqpiLXakevAoGBAKPoIR4aIvVHDL3Ua7TM\ncQ4s5Zbr7jjdp0AfX8YacSMpb/a0EgSETSqamzSNNF0id022V5wq08qj1bH5EMzv\nmj8Suymb8GOooR7qP0PYimVRCQhTTA4WB6iY9TfIjZTEJHk+EVmiU0jz6IamV6jf\n8vS8ipkgErbbhcrdZOfCmCQQ\n-----END PRIVATE KEY-----\n",
+    "client_email": "firebase-adminsdk-pfxrl@ecommerce-website-cdc77.iam.gserviceaccount.com",
+    "client_id": "109522249724700445885",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-pfxrl%40ecommerce-website-cdc77.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }

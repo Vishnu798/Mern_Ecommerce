@@ -1,21 +1,27 @@
-import {useState} from 'react';
-import axios from 'axios';
+import {
+  Route,
+  Routes,
+  BrowserRouter
+  
+} from 'react-router-dom'
+
+import HomePage from './pages/home_page';
+import AdminUploadProduct from './pages/admin_upload_product';
+import AdminLayout from './components/admin_page_layout';
 function App() {
-  const [text,setText] = useState("Initial Heading");
-  const buttonClick = async()=>{
-    try {
-      const data = await axios.get('http://localhost:5000/get_data')
-      setText(data.data);
-      console.log("data is  : ",data)
-    } catch (error) {
-      console.log("error is : ",error)
-    }
-   }
+  
+ 
   return (
-    <div >
-      <button onClick={buttonClick}>getText</button>
-      <h2>{text}</h2>
-    </div>
+    <>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<AdminLayout/>}>
+          <Route path='' element={<HomePage/>}/>
+          <Route path='admin_upload_product' element={<AdminUploadProduct/>}/>
+        </Route>
+      </Routes>
+    </BrowserRouter>
+    </>
   );
 }
 

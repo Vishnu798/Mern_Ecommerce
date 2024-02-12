@@ -1,9 +1,9 @@
 const express = require('express');
-const { getData } = require('./admin_controller');
+const { uploadProduct, getProducts } = require('./admin_controller');
 const adminRoute= express.Router();
 
-adminRoute.get('/get_data',getData)
-
+adminRoute.post('/upload_product',uploadProduct)
+adminRoute.get('/get_product',getProducts)
 
 module.exports = adminRoute
 
