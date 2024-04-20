@@ -19,8 +19,8 @@ function App() {
         <Route path='/' element={<AdminLayout/>}>
           <Route path='' element={<HomePage/>}/>
           <Route path='admin_upload_product' element={<AdminUploadProduct/>}/>
+          <Route path='user' element={ <UserPage/>}></Route>
         </Route>
-        <Route path='/user' element={ <UserPage/>}></Route>
       </Routes>
     </BrowserRouter>
     </>

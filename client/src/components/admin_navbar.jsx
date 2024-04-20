@@ -15,6 +15,7 @@ const AdminNavbar = () => {
         <nav>
           <NavLink to="." style={({isActive})=>isActive?activeLink:null}>Dashboard</NavLink>
           <NavLink to="admin_upload_product" style={({isActive})=>isActive?activeLink:null}>Upload Product</NavLink>
+          <NavLink to="user" style={({isActive})=>isActive?activeLink:null}>User</NavLink>
           
           
         </nav>
