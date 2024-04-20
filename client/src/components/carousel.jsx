@@ -45,15 +45,15 @@ const Carousels = () => {
   
 >
   <div className='box' >
-    <img className='fit' src="https://cdn.dribbble.com/users/895544/screenshots/3903662/media/562b25c993427af50f28262a6b8b51f7.jpg?resize=400x0" alt="shopping image" />
+    <img className='fit' src="https://cdn.dribbble.com/users/895544/screenshots/3903662/media/562b25c993427af50f28262a6b8b51f7.jpg?resize=400x0" alt="shopping" />
 
   </div>
   <div className='box'>
-    <img src="https://i.pinimg.com/originals/22/f0/7c/22f07c59344a599d2648d3e4e97ef4c5.jpg" alt="boys image" />
+    <img src="https://i.pinimg.com/originals/22/f0/7c/22f07c59344a599d2648d3e4e97ef4c5.jpg" alt="boys" />
 
   </div>
   <div className='box'>
-    <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2018/12/Blossom-Shop-theme.webp" alt="cart image" />
+    <img src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2018/12/Blossom-Shop-theme.webp" alt="cart" />
 
   </div>
   <div className='box'>
