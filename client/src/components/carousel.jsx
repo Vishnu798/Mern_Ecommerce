@@ -21,7 +21,7 @@ const Carousels = () => {
   };
   return (
     
-      <Carousel className='mt-4 container'
+      <Carousel className='mt-5 container'
 
   swipeable={false}
   draggable={false}
@@ -39,9 +39,9 @@ const Carousels = () => {
   // renderDotsOutside={true}
    containerClass="carousel-container"
   // removeArrowOnDeviceType={["tablet", "mobile"]}
-    arrows = {false}
+    arrows = {true}
    dotListClass="custom-dot-list-style"
-  //  itemClass="carousel-item-padding-40-px"
+    itemClass="carousel-item-padding-40-px"
   
 >
   <div className='box' >

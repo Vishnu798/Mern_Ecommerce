@@ -549,3 +549,26 @@ td *{
   width: 80%;
   height: 20vh;
 }
+.box-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 250px;
+  height: 370px;
+  background-color: antiquewhite;
+  /* object-fit:fill; */
+}
+.box-grid img{
+  width: 250px;
+  height: 300px;
+  object-fit:fill;
+}
+.box-grid:hover img{
+  opacity: 50%;
+  transition: all 1s;
+}
+.price-tag{
+  display: flex;
+  justify-content: space-between;
+  
+}
